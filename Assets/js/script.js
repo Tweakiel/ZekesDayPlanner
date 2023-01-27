@@ -1,7 +1,42 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-$(function () {
+
+/*GIVEN I am using a daily planner to create a schedule
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar*/
+
+var today= dayjs();
+$('#currentDay').text(today.format('dddd, MMMM DD YYYY'))
+
+
+
+/*
+WHEN I scroll down
+THEN I am presented with timeblocks for standard business hours
+WHEN I view the timeblocks for that day
+THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+*/
+
+function timeBlock(){
+
+
+}
+
+/*
+WHEN I click into a timeblock
+THEN I can enter an event
+WHEN I click the save button for that timeblock*/
+
+
+/*
+THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persist*/
+
+
+
+$document.ready(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
   // local storage. HINT: What does `this` reference in the click listener
