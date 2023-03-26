@@ -1,5 +1,5 @@
 var today = dayjs();
-
+dayjs.today(today,null, true);
 //display date on header
 $("#currentDay").text(today.format("dddd, MMMM DD YYYY"));
 
@@ -9,7 +9,7 @@ let saveButton = $(".saveBtn");
 //get current hour
 let todayHour = today.format("H");
 
-
+//
 
 //.ready ensures that dom is fully loaded before running function using jQuery
 $(document).ready(function () {
