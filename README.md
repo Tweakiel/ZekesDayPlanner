@@ -12,13 +12,13 @@ v2
 
 ---
 
-> A simple application that uses Day.js as a third party api. This Scheduler works as follows, Green Rows will be the future/upcoming todos, Red is Current TimeBlock, and Grey timeblocks are the timeblocks that have passed.
+> A simple application that uses Day.js as a third party api. This Scheduler works as follows, Green Rows will be the future/upcoming todos, Red is Current TimeBlock, and Grey timeblocks are the timeblocks that have passed. This Also uses the LocalStorage in the browser, meaning whenever a task is populated to a time block, localStorage dedicated to that timeblock will contain that task and save it.
 
 ## Deployment Link 💻
 
 ---
 
-> [Deploy/GitHub Pages](https://drive.google.com/file/d/1En47Fp2TYrPaxwjore71CXn1QBJBi1u7/view)
+> [Deploy/GitHub Pages](https://tweakiel.github.io/ZekesDayPlanner/)
 
 ## Acceptance Criteria ✔️
 
