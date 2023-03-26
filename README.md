@@ -14,6 +14,12 @@ v2
 
 > A simple application that uses Day.js as a third party api. This Scheduler works as follows, Green Rows will be the future/upcoming todos, Red is Current TimeBlock, and Grey timeblocks are the timeblocks that have passed.
 
+### LocalStorage Demonstration/Example
+
+---
+
+![LocalStorage Demonstration](./Assets/images%20and%20instructions/LocalStorage%20Demo%20Pic.png "LocalStorage Demonstration/Example.")
+
 ## Deployment Link 💻
 
 ---
